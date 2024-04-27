@@ -1,7 +1,9 @@
-# Get Start
-Unity Version: 2021.3.6f1
+# Demo Videos
 <br><b>Video of GameHub and Pattern Capture</b> https://www.youtube.com/watch?v=XDOK8yR51VM
-<br><b>Video of Word Master</b> https://www.youtube.com/watch?v=w3MJwl9eJAA
+<br><b>Video of Word Master</b> https://www.youtube.com/watch?v=w3MJwl9eJAA<br>
+# Get Start
+Unity Version: 2021.3.6f1<br>
+<br>Step:<br>
 1. Open the scene and run <b>Assets/Scenes/Start.unity</b>
 2. Start with Sign Up
 3. Get access any games from the home page

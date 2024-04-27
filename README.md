@@ -1,3 +1,11 @@
+# Get Start
+<b>Video of GameHub and Pattern Capture</b> https://www.youtube.com/watch?v=XDOK8yR51VM
+<b>Video of Word Master</b> https://www.youtube.com/watch?v=w3MJwl9eJAA
+Unity Version: 2021.3.6f1
+1. Open the scene and run <b>Assets/Scenes/Start.unity</b>
+2. Start with Sign Up
+3. Get access any games from the home page
+4. For Sign In please check the description unter Functionality 
 # GameHub
 This game platform provides you two games free to play, with sign up, sign in and sign out
 functions.
@@ -11,14 +19,14 @@ sign up button and one button to the start page. If the sign up succeeds, user g
 player gets his/her id use to sign in. 
 ### Sign out 
 In the lower left corner of the page you can find the sign out button, you can go back to the start page by clicking it. 
-## Play the games
+### Play the games
 Currently there are two 2D games as demos in this platform.
 # 1. Word Master
 ## About the Game
 It's time to test your vocabulary and luck! It's a game of guessing five-letter words based on clues, with no time limit or level setting, meaning there's no end to the game!
 ## Gameplay
 In each round you will be given randomized questions and you have 6 attempts. You can only enter one letter of the alphabet in each input box separately, invalid character inputs will not be displayed. Your answer can only be a valid English word of 5 letters and you will not lose an attempt if it is the wrong input length or an invalid English word. When you make 6 wrong guesses you lose the game, when you guess the word correctly within 6 attempts you win the game, and you can only choose to do the next guessing in both cases!
-## Game Design
+## Game Design based on NetSpell
 ### Word & clue selection 
 All words and their clues are stored into a real time database of Firebase. The system selects one of them randomly from the database when each round starts.
 ### Input validation 

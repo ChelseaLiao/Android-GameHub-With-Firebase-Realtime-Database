@@ -15,7 +15,7 @@ D:/MRTK/GameHub/GameHub
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49856
+61270
 Successfully changed project path to: D:/MRTK/GameHub/GameHub
 D:/MRTK/GameHub/GameHub
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,8 +47,7 @@ D:/MRTK/GameHub/GameHub
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Rebuilding Library because the metadata folder could not be found!
-Refreshing native plugins compatible for Editor in 82.54 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 94.36 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.6f1 (7da38d85baf6)
 [Subsystems] Discovering subsystems at path D:/LenovoSoftstore/Install/Unity/2021.3.6f1/Editor/Data/Resources/UnitySubsystems
@@ -64,49 +63,49 @@ Initialize mono
 Mono path[0] = 'D:/LenovoSoftstore/Install/Unity/2021.3.6f1/Editor/Data/Managed'
 Mono path[1] = 'D:/LenovoSoftstore/Install/Unity/2021.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/LenovoSoftstore/Install/Unity/2021.3.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56784
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56588
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/LenovoSoftstore/Install/Unity/2021.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: D:/LenovoSoftstore/Install/Unity/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: D:/LenovoSoftstore/Install/Unity/2021.3.6f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.002835 seconds.
+Registered in 0.002741 seconds.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 85.79 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 81.19 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.735 seconds
+- Completed reload, in  0.582 seconds
 Domain Reload Profiling:
-	ReloadAssembly (735ms)
-		BeginReloadAssembly (177ms)
+	ReloadAssembly (583ms)
+		BeginReloadAssembly (81ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (461ms)
-			LoadAssemblies (178ms)
+		EndReloadAssembly (418ms)
+			LoadAssemblies (82ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (100ms)
+			SetupTypeCache (90ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (283ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (259ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (50ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (86ms)
+				InitializePlatformSupportModulesInManaged (46ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (81ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (94ms)
-				ProcessInitializeOnLoadMethodAttributes (51ms)
+				ProcessInitializeOnLoadAttributes (88ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.011093 seconds.
+Registered in 0.009106 seconds.
 Begin MonoManager ReloadAssembly
 Could not resolve field token 0x0400005d, due to: Invalid type Firebase.Editor.CategoryLogger for instance field Firebase.Editor.XcodeProjectModifier:logger assembly:D:\MRTK\GameHub\GameHub\Assets\Firebase\Editor\Firebase.Editor.dll type:XcodeProjectModifier member:(null)
 Could not resolve field token 0x0400005e, due to: Invalid type Firebase.Editor.CategoryLogger for instance field Firebase.Editor.XcodeProjectModifier:logger assembly:D:\MRTK\GameHub\GameHub\Assets\Firebase\Editor\Firebase.Editor.dll type:XcodeProjectModifier member:(null)
@@ -114,7 +113,7 @@ Could not resolve field token 0x0400008d, due to: Could not load type of field '
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 2.53 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.21 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 System.IO.FileNotFoundException: Could not load file or assembly 'Google.JarResolver, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
 File name: 'Google.JarResolver, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null'
@@ -143,29 +142,29 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 Package Manager log level set to [2]
 Mono: successfully reloaded assembly
-- Completed reload, in  1.552 seconds
+- Completed reload, in  1.494 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1553ms)
-		BeginReloadAssembly (311ms)
+	ReloadAssembly (1497ms)
+		BeginReloadAssembly (234ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (130ms)
-		EndReloadAssembly (1134ms)
-			LoadAssemblies (207ms)
+			CreateAndSetChildDomain (132ms)
+		EndReloadAssembly (1166ms)
+			LoadAssemblies (121ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (231ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (718ms)
+			SetupTypeCache (288ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (677ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
+				InitializePlatformSupportModulesInManaged (13ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (51ms)
-				ProcessInitializeOnLoadAttributes (530ms)
-				ProcessInitializeOnLoadMethodAttributes (119ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (465ms)
+				ProcessInitializeOnLoadMethodAttributes (111ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -173,27 +172,13 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Failed to load shader (instanceID 408, GUID dd89cf5b9246416f84610a006f916af7)
-Failed to load shader (instanceID 414, GUID 14eb328de4b8eb245bb7cea29e4ac00b)
-Failed to load shader (instanceID 416, GUID 68e6db2ebdc24f95958faec2be5558d6)
-Failed to load shader (instanceID 424, GUID bc1ede39bf3643ee8e493720e4259791)
-Failed to load shader (instanceID 402, GUID fe393ace9b354375a9cb14cdbbc28be4)
-Failed to load shader (instanceID 404, GUID cf81c85f95fe47e1a27f6ae460cf182c)
-Failed to load shader (instanceID 398, GUID 9c442dc870b456e48b615cd8add0e9ef)
-Failed to load shader (instanceID 406, GUID 48bb5f55d8670e349b6e614913f9d910)
-Failed to load shader (instanceID 422, GUID 85187c2149c549c5b33f0cdb02836b17)
-Failed to load shader (instanceID 418, GUID 128e987d567d4e2c824d754223b3f3b0)
-Failed to load shader (instanceID 426, GUID f7ada0af4f174f0694ca6a487b8f543d)
-Failed to load shader (instanceID 412, GUID a02a7d8c237544f1962732b55a9aebf1)
-Failed to load shader (instanceID 420, GUID c8d12adcee749c344b8117cf7c7eb912)
-Failed to load shader (instanceID 410, GUID 1e3b057af24249748ff873be7fafee47)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 5.07 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 3.45 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2 unused Assets / (46.5 KB). Loaded Objects now: 490.
-Memory consumption went from 31.0 MB to 30.9 MB.
-Total: 7.521100 ms (FindLiveObjects: 0.052400 ms CreateObjectMapping: 0.005000 ms MarkObjects: 7.387600 ms  DeleteObjects: 0.074500 ms)
+Unloading 4048 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 98 unused Assets / (58.4 KB). Loaded Objects now: 4451.
+Memory consumption went from 137.7 MB to 137.7 MB.
+Total: 14.902700 ms (FindLiveObjects: 0.358900 ms CreateObjectMapping: 0.191500 ms MarkObjects: 14.181500 ms  DeleteObjects: 0.169500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -208,13 +193,195 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 506619.864232 seconds.
-  path: Assets/Textures/GameHub/Sign In.png
-  artifactKey: Guid(f9c299b05d184b549aaa6115d56200e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/GameHub/Sign In.png using Guid(f9c299b05d184b549aaa6115d56200e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ba1f5f72a06d29fd6c4241c9c3eb4a9') in 1.927480 seconds 
+  Time since last request: 511044.599640 seconds.
+  path: Assets/Textures/LetterGuess/GreenFrame.png
+  artifactKey: Guid(6799b0fca4e88a6408305e93c273b3a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/LetterGuess/GreenFrame.png using Guid(6799b0fca4e88a6408305e93c273b3a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7411e2eaa2064ff3ab12f6000fbbaca') in 0.140459 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Textures/GameHub/InputField.png
-  artifactKey: Guid(bc44ee7b43459c44cadb5aecbb0acf08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/GameHub/InputField.png using Guid(bc44ee7b43459c44cadb5aecbb0acf08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a1923766786beb9ca3a2ce576b65873') in 1.909494 seconds 
+  Time since last request: 0.000035 seconds.
+  path: Assets/Textures/LetterGuess/icon-wordle.png
+  artifactKey: Guid(9dadfea5287f1a849bf70a1a7a955776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/LetterGuess/icon-wordle.png using Guid(9dadfea5287f1a849bf70a1a7a955776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67a1961cfeb86c7c7686307882385ada') in 0.056584 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013590 seconds.
+Begin MonoManager ReloadAssembly
+Could not resolve field token 0x0400005d, due to: Invalid type Firebase.Editor.CategoryLogger for instance field Firebase.Editor.XcodeProjectModifier:logger assembly:D:\MRTK\GameHub\GameHub\Assets\Firebase\Editor\Firebase.Editor.dll type:XcodeProjectModifier member:(null)
+Could not resolve field token 0x0400005e, due to: Invalid type Firebase.Editor.CategoryLogger for instance field Firebase.Editor.XcodeProjectModifier:logger assembly:D:\MRTK\GameHub\GameHub\Assets\Firebase\Editor\Firebase.Editor.dll type:XcodeProjectModifier member:(null)
+Could not resolve field token 0x0400008d, due to: Could not load type of field 'Firebase.Editor.NetworkRequest+Result:<CommandLineResult>k__BackingField' (0) due to: Could not load file or assembly 'Google.JarResolver, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:D:\MRTK\GameHub\GameHub\Assets\Firebase\Editor\Firebase.Editor.dll type:Result member:(null)
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.IO.FileNotFoundException: Could not load file or assembly 'Google.JarResolver, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
+File name: 'Google.JarResolver, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null'
+  at Firebase.Editor.AndroidSettingsChecker..cctor () [0x00015] in /Users/runner/work/firebase-unity-sdk/firebase-unity-sdk/editor/app/src/AndroidAPILevelChecker.cs:37 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.IO.FileNotFoundException: Could not load file or assembly 'Google.VersionHandlerImpl, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
+File name: 'Google.VersionHandlerImpl, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.IO.FileNotFoundException: Could not load file or assembly 'Google.VersionHandlerImpl, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
+File name: 'Google.VersionHandlerImpl, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.326 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1327ms)
+		BeginReloadAssembly (167ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (1071ms)
+			LoadAssemblies (147ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (224ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (675ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (466ms)
+				ProcessInitializeOnLoadMethodAttributes (108ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 10.42 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4048 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 97 unused Assets / (27.7 KB). Loaded Objects now: 4471.
+Memory consumption went from 141.1 MB to 141.1 MB.
+Total: 8.387100 ms (FindLiveObjects: 0.265200 ms CreateObjectMapping: 0.115500 ms MarkObjects: 7.953300 ms  DeleteObjects: 0.052100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 707.664563 seconds.
+  path: Assets/LetterGuess/Scenes
+  artifactKey: Guid(2e1945d7d24be724d81832ef6bf39d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LetterGuess/Scenes using Guid(2e1945d7d24be724d81832ef6bf39d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d59594dc7bab1146c4b15c4719b7eef') in 0.008495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.551719 seconds.
+  path: Assets/LetterGuess/Scenes/Start.unity
+  artifactKey: Guid(134bb5238623b1a449ffd5c226ebce63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LetterGuess/Scenes/Start.unity using Guid(134bb5238623b1a449ffd5c226ebce63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25750eaf9c42f379bb5c6b099a65add4') in 0.001438 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008986 seconds.
+Begin MonoManager ReloadAssembly
+Could not resolve field token 0x0400005d, due to: Invalid type Firebase.Editor.CategoryLogger for instance field Firebase.Editor.XcodeProjectModifier:logger assembly:D:\MRTK\GameHub\GameHub\Assets\Firebase\Editor\Firebase.Editor.dll type:XcodeProjectModifier member:(null)
+Could not resolve field token 0x0400005e, due to: Invalid type Firebase.Editor.CategoryLogger for instance field Firebase.Editor.XcodeProjectModifier:logger assembly:D:\MRTK\GameHub\GameHub\Assets\Firebase\Editor\Firebase.Editor.dll type:XcodeProjectModifier member:(null)
+Could not resolve field token 0x0400008d, due to: Could not load type of field 'Firebase.Editor.NetworkRequest+Result:<CommandLineResult>k__BackingField' (0) due to: Could not load file or assembly 'Google.JarResolver, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:D:\MRTK\GameHub\GameHub\Assets\Firebase\Editor\Firebase.Editor.dll type:Result member:(null)
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.IO.FileNotFoundException: Could not load file or assembly 'Google.JarResolver, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
+File name: 'Google.JarResolver, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null'
+  at Firebase.Editor.AndroidSettingsChecker..cctor () [0x00015] in /Users/runner/work/firebase-unity-sdk/firebase-unity-sdk/editor/app/src/AndroidAPILevelChecker.cs:37 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.IO.FileNotFoundException: Could not load file or assembly 'Google.VersionHandlerImpl, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
+File name: 'Google.VersionHandlerImpl, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.IO.FileNotFoundException: Could not load file or assembly 'Google.VersionHandlerImpl, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
+File name: 'Google.VersionHandlerImpl, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.249 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1250ms)
+		BeginReloadAssembly (155ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (1019ms)
+			LoadAssemblies (133ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (203ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (628ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (436ms)
+				ProcessInitializeOnLoadMethodAttributes (107ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 9.63 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4048 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 97 unused Assets / (27.9 KB). Loaded Objects now: 4474.
+Memory consumption went from 141.1 MB to 141.1 MB.
+Total: 6.663500 ms (FindLiveObjects: 0.303300 ms CreateObjectMapping: 0.128500 ms MarkObjects: 6.175500 ms  DeleteObjects: 0.055100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

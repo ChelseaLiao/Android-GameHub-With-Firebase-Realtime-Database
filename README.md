@@ -44,7 +44,8 @@ The game inclues 4 states to process different methods, game data and UIs
 <b> Lose</b> The attempt number is 0
 <b> Restart</b> Once player clicks the next round button, data and UIs should be reset, and
 the state switches to “Attempt”.
-# Firebase Realtime Database
+# Firebase Realtime Database 
+https://console.firebase.google.com/project/wordle-like/database/wordle-like-default-rtdb/data
 The database includes two data references for user data and game data.
 ## User
 User name and password are stored unter user id automatically assigned once register. In addition, the new branch using to save data from a game will be created once player's game data generated.

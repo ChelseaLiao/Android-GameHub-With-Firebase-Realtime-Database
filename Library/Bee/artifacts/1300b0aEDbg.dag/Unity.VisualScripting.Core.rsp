@@ -131,6 +131,7 @@
 -r:"Assets/Firebase/Plugins/Firebase.Platform.dll"
 -r:"Assets/Firebase/Plugins/Firebase.TaskExtension.dll"
 -r:"Assets/Firebase/Plugins/Google.MiniJson.dll"
+-r:"Assets/LetterGuess/Plugins/NetSpell/NetSpell.SpellChecker.dll"
 -r:"D:/LenovoSoftstore/Install/Unity/2021.3.6f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
 -r:"D:/LenovoSoftstore/Install/Unity/2021.3.6f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"D:/LenovoSoftstore/Install/Unity/2021.3.6f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"

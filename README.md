@@ -1,6 +1,6 @@
 # Get Start
 <b>Video of GameHub and Pattern Capture</b> https://www.youtube.com/watch?v=XDOK8yR51VM
-<b>Video of Word Master</b> https://www.youtube.com/watch?v=w3MJwl9eJAA
+<br><b>Video of Word Master</b> https://www.youtube.com/watch?v=w3MJwl9eJAA
 Unity Version: 2021.3.6f1
 1. Open the scene and run <b>Assets/Scenes/Start.unity</b>
 2. Start with Sign Up

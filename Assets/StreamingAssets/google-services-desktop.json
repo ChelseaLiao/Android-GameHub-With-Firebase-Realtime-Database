@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "297732598123",
+    "firebase_url": "https://wordle-like-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "wordle-like",
+    "storage_bucket": "wordle-like.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:297732598123:android:330a7d0b660d89f4fec42e",
+        "android_client_info": {
+          "package_name": "com.company.wordlelike"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD14nj6OMQXmuQEJ8_eLBh1QIUvzbVkytA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

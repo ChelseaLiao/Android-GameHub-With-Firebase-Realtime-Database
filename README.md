@@ -23,26 +23,26 @@ In each round you will be given randomized questions and you have 6 attempts. Yo
 All words and their clues are stored into a real time database of Firebase. The system selects one of them randomly from the database when each round starts.
 ### Input validation 
 The validation is divided into 2 steps, letter validation and word validation
-<b>a.Letter validation</b> The system first calibrates the player's character inputs in each input box, only English letters will be displayed and other characters will be removed automatically. 
-<b>b. Word validation</b> After the player clicks the submit button, the system will perform word validation. It will first determine if the word length is 5 letters and if it is a valid English word. If the player's answer is a valid 5-letter English word, the system will check the answer using an English dictionary, here I used a plugin NetSpell.
+<br><b>1. Letter validation</b> The system first calibrates the player's character inputs in each input box, only English letters will be displayed and other characters will be removed automatically. 
+<br<b>2. Word validation</b> After the player clicks the submit button, the system will perform word validation. It will first determine if the word length is 5 letters and if it is a valid English word. If the player's answer is a valid 5-letter English word, the system will check the answer using an English dictionary, here I used a plugin NetSpell.
 ### Input feedback
 After player submits an answer, feedback is displayed below the input fields and lasts 2 seconds
-<b> Green text for correct answer</b> If the player guesses the answer correctly, the green text tells the player that the game is won
-<b> Red text for 3 different types of wrong input</b> Player receives 3 different feedback as 3 different wrong input. 
-1. wrong length: input less than 5 letters
-2. invalid English: word input is an invalid English word
-3. game lose: player doesn’t guess the correct word within 6 attempts
-<b> Feedback for correct and wrong letters</b> After the player submits the answer, the system marks the location of the correct and wrong letter input fields by highlighting them with green and red frames, respectively. The highlights disappear after two seconds.
+<br<b>1. Green text for correct answer</b> If the player guesses the answer correctly, the green text tells the player that the game is won
+<br<b>2. Red text for 3 different types of wrong input</b> Player receives 3 different feedback as 3 different wrong input. 
+a. wrong length: input less than 5 letters
+b. invalid English: word input is an invalid English word
+c. game lose: player doesn’t guess the correct word within 6 attempts
+<br<b>3. Feedback for correct and wrong letters</b> After the player submits the answer, the system marks the location of the correct and wrong letter input fields by highlighting them with green and red frames, respectively. The highlights disappear after two seconds.
 ### UIs
-<b> 5 input fields</b> The game only provides 5 input fields to avoid answer with more than 5 letters. Each field only accept only one English letter.  
-<b>Number of remaining attempt</b> Player can see the remaining attempts on the upper left corner, if the submitted answer is a 5-letter valid English word but doesn’t match the correct answer, the attempt number decreases by 1
-<b> Submit & next round buttons</b> When player is guessing, there is a submit button under the input fields. After this round end (player won or lost), the submit button is replaced by a button for starting the next round, to avoid a duplicate correct guess or a retry after game lose. 
+<br<b> 5 input fields</b> The game only provides 5 input fields to avoid answer with more than 5 letters. Each field only accept only one English letter.  
+<br<b>Number of remaining attempt</b> Player can see the remaining attempts on the upper left corner, if the submitted answer is a 5-letter valid English word but doesn’t match the correct answer, the attempt number decreases by 1
+<br<b> Submit & next round buttons</b> When player is guessing, there is a submit button under the input fields. After this round end (player won or lost), the submit button is replaced by a button for starting the next round, to avoid a duplicate correct guess or a retry after game lose. 
 ### Game states 
 The game inclues 4 states to process different methods, game data and UIs
-<b> Attempt</b> The state during player is guessing the answer, before game win or game lose
-<b> Win</b> Player guesses the correct answer within 6 attempts
-<b> Lose</b> The attempt number is 0
-<b> Restart</b> Once player clicks the next round button, data and UIs should be reset, and
+<br<b> Attempt</b> The state during player is guessing the answer, before game win or game lose
+<br<b> Win</b> Player guesses the correct answer within 6 attempts
+<br<b> Lose</b> The attempt number is 0
+<br<b> Restart</b> Once player clicks the next round button, data and UIs should be reset, and
 the state switches to “Attempt”.
 # Firebase Realtime Database 
 https://console.firebase.google.com/project/wordle-like/database/wordle-like-default-rtdb/data

@@ -71,6 +71,16 @@
     <Compile Include="Assets\LetterGuess\Scripts\Wordle-like Game\UI_Attempt.cs" />
     <Compile Include="Assets\LetterGuess\Scripts\Wordle-like Game\GetUserInput.cs" />
     <Compile Include="Assets\LetterGuess\Scripts\Wordle-like Game\FirebaseInitialization.cs" />
+    <Compile Include="Assets\Pattern Capture\Scripts\Cognitive Game\GetUserName.cs" />
+    <Compile Include="Assets\Pattern Capture\Scripts\Cognitive Game\HitterController.cs" />
+    <Compile Include="Assets\Pattern Capture\Scripts\Cognitive Game\LevelController.cs" />
+    <Compile Include="Assets\Pattern Capture\Scripts\Cognitive Game\ScoringSystem.cs" />
+    <Compile Include="Assets\Pattern Capture\Scripts\Cognitive Game\RankingSystem.cs" />
+    <Compile Include="Assets\Pattern Capture\Scripts\Cognitive Game\ObjectController.cs" />
+    <Compile Include="Assets\Pattern Capture\Scripts\Cognitive Game\CognitiveGameController.cs" />
+    <Compile Include="Assets\Pattern Capture\Scripts\Cognitive Game\TypingEffect.cs" />
+    <Compile Include="Assets\Pattern Capture\Scripts\Cognitive Game\User.cs" />
+    <Compile Include="Assets\Pattern Capture\Scripts\Cognitive Game\TargetToDistractors.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
